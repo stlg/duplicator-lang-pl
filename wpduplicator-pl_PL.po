@@ -1,0 +1,943 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPDuplicator - Polish translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-13 21:16-0700\n"
+"PO-Revision-Date: 2015-03-03 22:59+0100\n"
+"Last-Translator: Grzegorz Stalmierski <grzegorz.stalmierski@gmail.com>\n"
+"Language-Team: Grzegorz Stalmierski <grzegorz.stalmierski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.5.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../duplicator.php:198
+#: ../inc/page.about.php:141
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../duplicator.php:199
+msgid "Partner"
+msgstr "Partner"
+
+#: ../duplicator.php:200
+#, fuzzy
+msgid "Approved Hosts"
+msgstr "Zatwierdzeni dostawcy hostingu"
+
+#: ../duplicator.php:250
+#: ../inc/page.main.php:32
+msgid "Dashboard"
+msgstr "Kokpit"
+
+#: ../duplicator.php:252
+#: ../inc/page.diag.php:21
+msgid "Diagnostics"
+msgstr "Diagnostyka"
+
+#: ../duplicator.php:253
+#: ../inc/page.about.php:21
+#: ../inc/page.diag.php:25
+#: ../inc/page.main.php:36
+#: ../inc/page.support.php:10
+msgid "Support"
+msgstr "Wsparcie"
+
+#: ../duplicator.php:254
+#: ../inc/page.diag.php:26
+#: ../inc/page.main.php:37
+#: ../inc/page.support.php:14
+#, fuzzy
+msgid "All About"
+msgstr "Wszystko o"
+
+#: ../duplicator.php:288
+msgid "Manage"
+msgstr "Zarządzaj"
+
+#: ../installer/log-read.php:45
+msgid "Log file not found or unreadable"
+msgstr "Plik logów nie został znaleziony albo jest nieczytelny"
+
+#: ../installer/log-read.php:47
+msgid "The log file for the Duplicator Plugin can be found in the snapshots directory with the extension *.log"
+msgstr "Plik logów dla wtyczki Duplicator znajduje się w folderze z kopiami, i posiada rozszerzenie *.log"
+
+#: ../installer/log-read.php:48
+msgid "If no log file is present the try to create a package"
+msgstr "Jeśli nie ma żadnego pliku log, postaraj się stworzyć paczkę"
+
+#: ../installer/log-read.php:50
+msgid "Reasons for log file not showing"
+msgstr "Powód niewyświetlania się pliku logów"
+
+#: ../installer/log-read.php:51
+#, fuzzy
+msgid "The web server does not support returning .log file extentions"
+msgstr "Serwer nie obsługuje zwracania rozszerzenia plików logów: .log"
+
+#: ../installer/log-read.php:52
+msgid "The snapshots directory does not have the correct permissions to write files.  Try setting the permissions to 755"
+msgstr "Katalog kopi zapasowej nie posiada właściwych praw do zapisywania w nim plików. Postaraj się zmienić jego uprawnienia na 755"
+
+#: ../installer/log-read.php:53
+msgid "The process that PHP runs under does not have enough permissions to create files.  Please contact your hosting provider for more details"
+msgstr "Proces w którym uruchomiony jest interpreter PHP ma niewystarczające uprawnienia, aby tworzyć pliki. Po więcej szczegółów, prosimy kontaktować się z dostawcą hostingu"
+
+#: ../installer/log-view.php:100
+msgid "Duplicator: Create Package Log"
+msgstr "Duplicator: Tworzenie Logów Pakietu "
+
+#: ../installer/log-view.php:103
+msgid "Processing may take several minutes, please wait for progress bar to complete on the main status bar"
+msgstr "Przetwarzanie może zająć kilka minut, prosimy zaczekaj, aż pasek postępu w obszarze statusu wskaże zakończenie działania"
+
+#: ../installer/log-view.php:108
+msgid "Auto Refresh"
+msgstr "Automatyczne Odświerzanie"
+
+#: ../installer/log-view.php:109
+msgid "Refresh"
+msgstr "Odświerzanie"
+
+#: ../installer/log-view.php:117
+msgid "Support Center"
+msgstr "Centrum Wsparcia"
+
+#: ../installer/log-view.php:118
+#, fuzzy
+msgid "Do NOT post this data to public sites like the WordPress.org forums as it contains sensitive data."
+msgstr "NIE zamieszczaj tych danych na ogólnodostępnych stronach, jak np. fora WordPress.org, ponieważ zawierają wrażliwe informacje."
+
+#: ../inc/javascript.php:133
+msgid "Saving"
+msgstr "Zapisywanie"
+
+#: ../inc/javascript.php:154
+msgid "Please select at least one package to delete."
+msgstr "Proszę wybrać, co najmniej jedną paczkę do skasowania."
+
+#: ../inc/javascript.php:158
+msgid "Are you sure, you want to delete the selected package(s)?"
+msgstr "Czy, na pewno chcesz skasować zaznaczoną paczkę/i?"
+
+#: ../inc/javascript.php:174
+#: ../inc/javascript.php:213
+#: ../inc/javascript.php:322
+#: ../inc/javascript.php:422
+#: ../inc/javascript.php:441
+msgid "Ready to create new package."
+msgstr "Gotowy do utworzenia nowej paczki."
+
+#: ../inc/javascript.php:189
+msgid "Please enter a backup name."
+msgstr "Proszę wprowadzić nazwę kopii zapasowej. "
+
+#: ../inc/javascript.php:197
+msgid "Alpanumeric characters only on package name"
+msgstr "W nazwie paczki umieść, wyłącznie cyfry i litery."
+
+#: ../inc/javascript.php:210
+msgid "Evaluating WordPress Setup. Please Wait"
+msgstr "Trwa ocena Ustawień WordPress'a. Prosimy czekać"
+
+#: ../inc/javascript.php:276
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: ../inc/javascript.php:282
+msgid "Create Package Set"
+msgstr "Stwórz zestaw paczki "
+
+#: ../inc/javascript.php:327
+msgid "Checking System Status.  Please Wait!"
+msgstr "Sprawdzanie statusu systemu. Prosimy czekać!"
+
+#: ../inc/javascript.php:353
+msgid "Scanning Please Wait"
+msgstr "Trwa Skanowanie - Prosimy Czekać"
+
+#: ../inc/javascript.php:358
+#: ../inc/javascript.php:359
+#: ../inc/javascript.php:360
+#, fuzzy
+msgid "unreadable"
+msgstr "nieczytelne"
+
+#: ../inc/javascript.php:361
+msgid "*Scan Error"
+msgstr "*Błąd Skanowania"
+
+#: ../inc/javascript.php:362
+msgid "Files"
+msgstr "Pliki"
+
+#: ../inc/javascript.php:362
+msgid "Folders"
+msgstr "Katalogi"
+
+#: ../inc/javascript.php:367
+msgid "error scanning directory"
+msgstr "błąd podczas skanowania katalogu"
+
+#: ../inc/javascript.php:397
+msgid "DATABASE"
+msgstr "BAZA DANYCH"
+
+#: ../inc/javascript.php:398
+msgid "PACKAGE"
+msgstr "PACZKA"
+
+#: ../inc/javascript.php:399
+msgid "INSTALLER"
+msgstr "INSTALATOR"
+
+#: ../inc/javascript.php:418
+msgid "AJAX Response"
+msgstr "Odpowiedź AJAX'a"
+
+#: ../inc/javascript.php:436
+msgid "Creating package may take several minutes. Please Wait... "
+msgstr "Tworzenie paczki, może zająć kilka minut. Prosimy czekać..."
+
+#: ../inc/javascript.php:437
+msgid "Preview Log"
+msgstr "Podejrzyj logi"
+
+#: ../inc/page.about.php:17
+#, fuzzy
+msgid "About"
+msgstr "Informacje o"
+
+#: ../inc/page.about.php:18
+#: ../inc/page.diag.php:22
+#: ../inc/page.main.php:33
+#: ../inc/page.support.php:11
+msgid "By"
+msgstr "autor"
+
+#: ../inc/page.about.php:31
+msgid "Your LifeInTheGrid should be about working smarter not harder.  With the Duplicator you can streamline your workflows and quickly clone a WordPress site in minutes.  From Novice to Guru this plugin is designed for Bloggers, Admins, Developers, Designers, Entrepreneurs and anyone who uses WordPress."
+msgstr "Dzięki narzędziom LifeInTheGrid, twoja praca powinna być inteligentniejsza, a nie cięższa. Dzięki Duplicator-owi możesz przyspieszyć swoją pracę i szybko sklonować stronę WordPress'a w zaledwie kilka minut. Ta wtyczka zaprojektowana jest z myślą o Blogerach, Adminach, Programistach, Projektantach, Przedsiębiorcach i każdym - nowym, czy \"guru\", kto korzysta z WordPress'a."
+
+#: ../inc/page.about.php:33
+msgid "If you run into an issue feel free to submit a support ticket and visit our"
+msgstr "Jeśli napotkasz jakiś problem, zachęcamy do przesłania zgłoszenia (ticket) do zespołu wsparcia i odwiedzenia naszej"
+
+#: ../inc/page.about.php:36
+msgid "knowledgebase"
+msgstr "bazy wiedzy"
+
+#: ../inc/page.about.php:39
+msgid "We also offer premium priority support for those who need feedback within 24-48hrs.  Please visit our "
+msgstr "Oferujemy także wsparcie premium, o wyższym priorytecie, dla osób potrzebujących pomocy w ciągu 24-28 godz. Prosimy odwiedź naszą"
+
+#: ../inc/page.about.php:40
+#: ../inc/page.support.php:70
+msgid "service page"
+msgstr "stronę wsparcia"
+
+#: ../inc/page.about.php:41
+msgid "for more details."
+msgstr "aby uzyskać więcej informacji."
+
+#: ../inc/page.about.php:50
+msgid "Support Duplicator"
+msgstr "Wesprzyj Duplicator'a"
+
+#: ../inc/page.about.php:62
+msgid "Consider a donation of any amount; it will take less than 60 seconds or about as fast as you can duplicate a site.  These proceeds help to cover development and support costs.  Thanks for your generosity!!"
+msgstr "Rozważ złożenie dotacji w dowolnej kwocie; zajmie Ci, to 60 sekund albo tylko tyle czasu, co wykonanie kopii strony. Wsparcie finansowe pomaga pokryć koszty programistyczne oraz wsparcia technicznego. Dziękujemy, za Twoją hojność!! "
+
+#: ../inc/page.about.php:74
+msgid "Help out by leaving a 5 star review on the"
+msgstr "Pomóż nam, wystawiając 5-cio gwiazdkową ocenę na stronie"
+
+#: ../inc/page.about.php:75
+msgid "WordPress plugins directory"
+msgstr "katalogu wtyczek WordPress'a."
+
+#: ../inc/page.about.php:76
+msgid "and by giving your opinion on the survey below."
+msgstr "oraz przez odpowiedzenie na zamieszczoną poniżej ankietę. "
+
+#: ../inc/page.about.php:79
+msgid "Give us your Opinion?"
+msgstr "Prześlij nam swoją opinię."
+
+#: ../inc/page.about.php:91
+#, fuzzy
+msgid "Spread the Word"
+msgstr "Wypromuj Duplicator'a"
+
+#: ../inc/page.about.php:92
+#, fuzzy
+msgid "Spreading the word gives the plugin a wider audience which helps to pool more resources to test/support/develop and participate to improve the plugin.  By getting the word out the Duplicator will continue to improve at a faster rate and harness the power of the open community to push the plugin further."
+msgstr "Promowanie zbiera szerszą publikę wokół wtyczki, co pozwala zdobyć dodatkowe zasoby do testów/wsparcia/rozwoju i współpracy. Promując umożliwiasz Duplicatorowi nieustane udoskonalanie się w coraz szybszym tempie oraz zaprzęganie siły społeczności wolnego i otwartego oprogramowania do rozwoju wtyczki.     "
+
+#: ../inc/page.about.php:95
+msgid "Duplicate Your WordPress"
+msgstr "Klonuj Swojego WordPress'a"
+
+#: ../inc/page.about.php:96
+msgid "Rapid WordPress Duplication by LifeInTheGrid.com"
+msgstr "Błyskawiczne klonowanie WordPress'a zapewnia LifeInTheGrid.com"
+
+#: ../inc/page.about.php:140
+#: ../inc/page.support.php:23
+msgid "Knowledge Base"
+msgstr "Baza Wiedzy"
+
+#: ../inc/page.about.php:142
+msgid "Blog"
+msgstr "Blog"
+
+#: ../inc/page.about.php:143
+msgid "Labs"
+msgstr "Laboratorium"
+
+#: ../inc/page.main.php:45
+#: ../inc/page.main.php:86
+msgid "Package Name"
+msgstr "Nazwa paczki"
+
+#: ../inc/page.main.php:48
+msgid "Create Package"
+msgstr "Stwórz paczkę"
+
+#: ../inc/page.main.php:49
+msgid "Delete selected package(s)"
+msgstr "Usuń zaznaczoną/e paczkę/i"
+
+#: ../inc/page.main.php:52
+msgid "Options"
+msgstr "Opcje"
+
+#: ../inc/page.main.php:53
+msgid "System Check"
+msgstr "Sprawdzenie systemu"
+
+#: ../inc/page.main.php:54
+#, fuzzy
+msgid "Show Create Log"
+msgstr "Wyświetl tworzenie logów"
+
+#: ../inc/page.main.php:64
+msgid "Status"
+msgstr "Status"
+
+#: ../inc/page.main.php:65
+msgid "Ready to create new package"
+msgstr "Gotów do stworzenia nowej paczki"
+
+#: ../inc/page.main.php:81
+msgid "Select all packages"
+msgstr "Zaznacz wszystkie paczki"
+
+#: ../inc/page.main.php:82
+msgid "Information"
+msgstr "Informacje"
+
+#: ../inc/page.main.php:83
+msgid "Owner"
+msgstr "Właściciel"
+
+#: ../inc/page.main.php:84
+msgid "Created"
+msgstr "Utworzone"
+
+#: ../inc/page.main.php:85
+msgid "Size"
+msgstr "Rozmiar"
+
+#: ../inc/page.main.php:88
+msgid "Package Set"
+msgstr "Zestaw paczek"
+
+#: ../inc/page.main.php:89
+msgid "(Download Both)"
+msgstr "(Pobierz oba pliki)"
+
+#: ../inc/page.main.php:120
+#: ../inc/page.main.php:148
+msgid "View"
+msgstr "Podgląd"
+
+#: ../inc/page.main.php:126
+#: ../inc/view.options.php:10
+msgid "Installer"
+msgstr "Instalator"
+
+#: ../inc/page.main.php:127
+#: ../inc/page.main.php:156
+#: ../inc/view.options.php:9
+msgid "Package"
+msgstr "Paczka"
+
+#: ../inc/page.main.php:133
+msgid "Version"
+msgstr "Wersja"
+
+#: ../inc/page.main.php:134
+#, fuzzy
+msgid "Secure Name"
+msgstr "Bezpieczna Nazwa"
+
+#: ../inc/page.main.php:135
+msgid "Download SQL File"
+msgstr "Pobierz plik SQL"
+
+#: ../inc/page.main.php:136
+msgid "Show Download Links"
+msgstr "Pokaż linki pobierania"
+
+#: ../inc/page.main.php:162
+#, fuzzy
+msgid "Legacy Version"
+msgstr "Wstecznie zgodna wersja"
+
+#: ../inc/page.main.php:165
+msgid "This package was built with a version that is no longer supported.  It is highly recommended that this package be deleted.  For more details see the"
+msgstr "Paczka ta, została utworzona przez niewspieraną już wersję wtyczki. Zalecane jest usunięcie, tej paczki. Po więcej szczegółów, zapraszamy do"
+
+#: ../inc/page.main.php:166
+msgid "Online FAQs"
+msgstr "Internetowego FAQ "
+
+#: ../inc/page.main.php:178
+msgid "No packages found"
+msgstr "Nie znaleziono żadnych paczek"
+
+#: ../inc/page.main.php:179
+#, fuzzy
+msgid "To create a new package, enter a name and click the create button "
+msgstr "Aby utworzyć nową paczkę, wprowadź nazwę i kliknij przycisk "
+
+#: ../inc/page.main.php:181
+msgid "Check your"
+msgstr "Sprawdź"
+
+#: ../inc/page.main.php:182
+msgid "server's compatibility"
+msgstr "zgodność swojego serwera"
+
+#: ../inc/page.main.php:183
+msgid "with the duplicator"
+msgstr "z wtyczką Duplicator."
+
+#: ../inc/page.main.php:184
+#, fuzzy
+msgid "This process will backup all your files and database"
+msgstr "Ten proces zarchiwizuje wszystkie twoje pliki oraz bazy danych"
+
+#: ../inc/page.main.php:185
+msgid "Creating a package may take several minutes if you have a large site"
+msgstr "W przypadku dużej strony, tworzenie paczki może zająć kilka minut"
+
+#: ../inc/page.main.php:186
+msgid "This window should remain open for the process to complete"
+msgstr "To okno musi pozostać otwarte w celu ukończenia procesu "
+
+#: ../inc/page.main.php:187
+msgid "Please be patient while we work through this Beta version"
+msgstr "Prosimy o cierpliwość, w trakcie prac nad wersją roboczą (Beta) wtyczki"
+
+#: ../inc/page.main.php:188
+msgid "Please report any issues to"
+msgstr "Prosimy zgłaszać wszelkie uwagi do"
+
+#: ../inc/page.main.php:205
+msgid "Total Storage Used"
+msgstr "Całkowite wykorzystanie przestrzeni"
+
+#: ../inc/page.support.php:28
+msgid "For a complete rundown of the Duplicator see the online knowledgebase by clicking the question button or any link below.   If you experience issues with creating or installing a package check out the FAQ page first."
+msgstr "Pełną dokumentację Duplicator'a znajdziesz się w bazie wiedzy, po kliknięciu przycisku albo któregokolwiek z linków poniżej. Jeśli napotkasz problemy przy tworzeniu lub instalowaniu paczek, zajrzyj najpierw po odpowiedź do FAQ. "
+
+#: ../inc/page.support.php:32
+msgid "Quick Start"
+msgstr "Szybki Start"
+
+#: ../inc/page.support.php:33
+msgid "User Guide"
+msgstr "Podręcznik Użytkownika"
+
+#: ../inc/page.support.php:34
+msgid "FAQs"
+msgstr "FAQ"
+
+#: ../inc/page.support.php:35
+msgid "Changelog"
+msgstr "Lista zmian"
+
+#: ../inc/page.support.php:42
+msgid "Approved Hosting"
+msgstr "Zatwierdzone hostingi"
+
+#: ../inc/page.support.php:48
+msgid "Not all hosting companies are created equal and to get the most out of the plugin we recommend using hosting providers that we do our own testing on.  Please visit our"
+msgstr "Nie wszystkie firmy hostingowe oferują tak samo wysoką jakość usługi. Aby wykorzystać w pełni naszą wtyczkę, zalecamy skorzystanie z dostawcy hostingu, którego sami przetestowaliśmy. Zapraszamy do odwiedzenia naszego"
+
+#: ../inc/page.support.php:51
+msgid "Approved Affiliate Hosting Program"
+msgstr "Programu Zatwierdzonych Hostingów Partnerskich"
+
+#: ../inc/page.support.php:52
+msgid "and consider making a switch to hosts that we trust and have experienced good success with when using the Duplicator"
+msgstr "oraz do przejścia na hosting, któremu ufamy oraz pozytywnie przeszedł testy wtyczką Duplicator. "
+
+#: ../inc/page.support.php:59
+msgid "Online Support"
+msgstr "Wsparcie przez Internet"
+
+#: ../inc/page.support.php:66
+msgid "If you run into an issue and have already read the FAQs feel free to submit a support ticket and we will try our best to respond within 5-10 business days or sooner if possible."
+msgstr "Jeśli napotkałeś jakiś problem, i przeczytałeś już FAQ, zapraszamy do przesłania zgłoszenia (ticket), a postaramy się na nie odpowiedzieć najlepiej jak potrafimy w ciągu 5-10 dni roboczych lub - jeśli będzie, to możliwe - wcześniej. "
+
+#: ../inc/page.support.php:69
+msgid "If you need priority support within 24-48hrs please visit our "
+msgstr "Jeśli potrzebna jest Ci pomoc priorytetowa - w ciągu 24-48 godz., zapraszamy do odwiedzenia "
+
+#: ../inc/page.support.php:71
+msgid "for more details.  Premium support is 100% refundable if we are unable to resolve your issue."
+msgstr "w celu uzyskania szczegółów. Dokonujemy 100% refundacji kwoty za wsparcie premium, jeśli nie będziemy w stanie rozwiązać twojego problemu. "
+
+#: ../inc/page.support.php:77
+msgid "Most issues that occur with the Duplicator revolve around how a server is configured.  In order to diagnose your issues we will require temporary admin accounts to your cPanel and WordPress Admin.  Please fill out the "
+msgstr "Większość problemów przy stosowaniu wtyczki Duplicator, obraca się wokół konfiguracji serwera. Aby zdiagnozować przyczynę Twojego problemu, będziemy potrzebowali tymczasowy login admina do konta w cPanel'u i WordPress Admin. "
+
+#: ../inc/page.support.php:79
+msgid "Request Quote"
+msgstr "Zapytaj o wsparcie"
+
+#: ../inc/page.support.php:80
+msgid "form and explain your issue in detail."
+msgstr "przez formularz i wyjaśnij dokładnie swój problem."
+
+#: ../inc/view.options.php:4
+msgid "Duplicator Options"
+msgstr "Opcje Duplicator'a"
+
+#: ../inc/view.options.php:11
+msgid "System"
+msgstr "System"
+
+#: ../inc/view.options.php:12
+msgid "FTP"
+msgstr "FTP"
+
+#: ../inc/view.options.php:22
+msgid "Processing"
+msgstr "Przetwarzanie"
+
+#: ../inc/view.options.php:36
+#, fuzzy
+msgid "Max Time"
+msgstr "Czas Maksymalny"
+
+#: ../inc/view.options.php:36
+msgid "seconds"
+msgstr "sekundy"
+
+#: ../inc/view.options.php:37
+#, fuzzy
+msgid "Max Memory"
+msgstr "Pamięć Maksymalna"
+
+#: ../inc/view.options.php:45
+msgid "Email when completed"
+msgstr "Wyślij e-mail po zakończeniu"
+
+#: ../inc/view.options.php:46
+#, fuzzy
+msgid "WP-Admin email is included.  Add extra emails semicolon separated."
+msgstr "E-mail WP-Admin, jest na liście odbiorców. Dodaj dodatkowe adresy e-mail rozdzielone średnikami."
+
+#: ../inc/view.options.php:55
+msgid "Exclusion Filters"
+msgstr "Filtr Wykluczeń"
+
+#: ../inc/view.options.php:57
+msgid "Directories"
+msgstr "Katalogi"
+
+#: ../inc/view.options.php:59
+msgid "Root Path"
+msgstr "Ścieżka Root'a"
+
+#: ../inc/view.options.php:61
+msgid "File extensions"
+msgstr "Rozszerzenia plików"
+
+#: ../inc/view.options.php:64
+msgid "Separate all filters by semicolon"
+msgstr "Rozdziel wszystkie filtry przecinkami"
+
+#: ../inc/view.options.php:69
+msgid "Database Encoding"
+msgstr "Kodowanie Bazy Danych"
+
+#: ../inc/view.options.php:72
+msgid "Enable character conversion encoding"
+msgstr "Włącz zmianę kodowania znaków"
+
+#: ../inc/view.options.php:77
+msgid "From"
+msgstr "Od"
+
+#: ../inc/view.options.php:78
+msgid "to"
+msgstr "do"
+
+#: ../inc/view.options.php:79
+#, fuzzy
+msgid "Disable this option for extended or double byte character sets"
+msgstr "Wyłącz tę opcję przy rozszerzonym (DBCS, dwu-bajtowym) zestawie znaków"
+
+#: ../inc/view.options.php:86
+msgid "Having issues saving these options?  Temporarily disable all 'Object Caches' (i.e. W3C Total Object Cache)"
+msgstr "Masz trudności w zapisaniu tych ustawień? Tymczasowo wyłącz wszędzie \"Cache'owanie Obiektów\" (np. w W3C Total Object Cache)"
+
+#: ../inc/view.options.php:96
+msgid "Settings Defaults"
+msgstr "Domyślne Ustawienia"
+
+#: ../inc/view.options.php:99
+msgid "Install URL"
+msgstr "URL Instalacji"
+
+#: ../inc/view.options.php:106
+msgid "Database Defaults"
+msgstr "Domyślne Ustawienia Bazy Danych"
+
+#: ../inc/view.options.php:109
+msgid "Host"
+msgstr "Serwer"
+
+#: ../inc/view.options.php:113
+#: ../inc/view.system.php:8
+#, fuzzy
+msgid "Name"
+msgstr "Imie/Nazwa"
+
+#: ../inc/view.options.php:117
+msgid "User"
+msgstr "Użytkownik"
+
+#: ../inc/view.options.php:122
+msgid "The installer can have these fields pre-filled at install time.  These values are optional."
+msgstr "Instalator, może automatycznie uzupełnić te pola, w czasie instalacji. Wartości te, są opcjonalne."
+
+#: ../inc/view.options.php:129
+msgid "Uninstall Options"
+msgstr "Opcje Odinstalowania"
+
+#: ../inc/view.options.php:132
+msgid "Delete entire snapshot directory when removing plugin"
+msgstr "Skasuj cały folder kopii zapasowej, przy odinstalowaniu wtyczki"
+
+#: ../inc/view.options.php:133
+msgid "Snapshot Directory"
+msgstr "Katalog Kopii Zapasowej"
+
+#: ../inc/view.options.php:161
+msgid "Save"
+msgstr "Zapisz"
+
+#: ../inc/view.options.php:162
+msgid "Close"
+msgstr "Zamknij"
+
+#: ../inc/view.system.php:3
+msgid "Package Creation"
+msgstr "Tworzenie Paczki"
+
+#: ../inc/view.system.php:5
+msgid "Create a new Package Set?"
+msgstr "Stworzyć nowy zestaw paczki?"
+
+#: ../inc/view.system.php:10
+#: ../inc/view.system.php:212
+msgid "Pre-Zip Overview"
+msgstr "Podgląd przed ZIP-owaniem"
+
+#: ../inc/view.system.php:12
+msgid "Perform Scan"
+msgstr "Wykonaj skanowanie"
+
+#: ../inc/view.system.php:18
+msgid "Note: A scan will provide an estimate on the size of your file system.  The scan will exclude items in the"
+msgstr "Uwaga: Skanowanie dostarczy informację o przybliżonym rozmiarze twojego systemu plików. Skanowanie wykluczy zawartość"
+
+#: ../inc/view.system.php:19
+msgid "directory filter list"
+msgstr "katalogów na liście filtrowania"
+
+#: ../inc/view.system.php:20
+#, fuzzy
+msgid "Files that are not readable by the plugin will not be included in the overview.  Directories that are empty will not be included in the final package. "
+msgstr "Pliki niedające się odczytać przez wtyczkę, nie będą włączone w listę. Puste katalogi, nie będą włączone w wynikową paczkę."
+
+#: ../inc/view.system.php:29
+#, fuzzy
+msgid "System Constraint"
+msgstr "Ograniczenie Systemu"
+
+#: ../inc/view.system.php:32
+msgid "Please try again! An issue has occurred."
+msgstr "Prosimy spróbować ponownie! Wystąpiły problemy."
+
+#: ../inc/view.system.php:36
+msgid "Recommendations"
+msgstr "Rekomendacje"
+
+#: ../inc/view.system.php:41
+msgid "Validate"
+msgstr "Zatwierdź"
+
+#: ../inc/view.system.php:42
+msgid "your system"
+msgstr "twój system"
+
+#: ../inc/view.system.php:43
+msgid "refresh"
+msgstr "odświerz"
+
+#: ../inc/view.system.php:44
+#, fuzzy
+msgid "the dashboard."
+msgstr "kokpit."
+
+#: ../inc/view.system.php:48
+#, fuzzy
+msgid "Monitor"
+msgstr "Monitoruj"
+
+#: ../inc/view.system.php:49
+#, fuzzy
+msgid "your log file a few more minutes as processing may continue on some systems"
+msgstr "twój plik logów, jeszcze kilka minut, gdyż przetwarzanie może być kontynuowane na pewnych systemach "
+
+#: ../inc/view.system.php:52
+msgid "Contact your server admin to have the page timeout increased (see duration below)"
+msgstr "Skontaktuj się z administratorem swojego serwera, aby wydłużyć timeout - limit czasu wygaśnięcia strony (czas trwania widoczny jest poniżej)"
+
+#: ../inc/view.system.php:53
+msgid "Consider adding a directory filter in the options dialog if the process continues to timeout"
+msgstr "Rozważ dodanie filtra katalogów w oknie dialogowym opcji, jeśli proces będzie na dal przekraczał limit czasu"
+
+#: ../inc/view.system.php:54
+#, fuzzy
+msgid "Check your disk space.  For hosted sites review your providers help."
+msgstr "Sprawdź dostępne miejsce na dysku. W przypadku stron hostowanych, zajrzyj do pomocy swojego dostawcy "
+
+#: ../inc/view.system.php:57
+msgid "Consider using an"
+msgstr "Rozważ skorzystanie z usług"
+
+#: ../inc/view.system.php:59
+msgid "approved"
+msgstr "zatwierdzonego"
+
+#: ../inc/view.system.php:60
+msgid "hosting provider."
+msgstr "dostawcy hostingu."
+
+#: ../inc/view.system.php:64
+msgid "Server Response"
+msgstr "Odpowiedź Serwera"
+
+#: ../inc/view.system.php:69
+msgid "See online help for more details at"
+msgstr "Po więcej szczegółów zajrzyj do pomocy online na stronie  "
+
+#: ../inc/view.system.php:79
+msgid "System Status"
+msgstr "Status Systemu"
+
+#: ../inc/view.system.php:82
+msgid "Please validate your system configuration."
+msgstr "Prosimy sprawdź konfigurację swojego systemu. "
+
+#: ../inc/view.system.php:83
+msgid "Click link for details"
+msgstr "Kliknij w link, po szczegóły"
+
+#: ../inc/view.system.php:92
+msgid "SYSTEM REQUIRMENTS"
+msgstr "WYMAGANIA SYSTEMOWE"
+
+#: ../inc/view.system.php:93
+msgid "File Permissions"
+msgstr "Prawa dostępu do pliku"
+
+#: ../inc/view.system.php:96
+msgid "Required permissions"
+msgstr "Wymagane prawa dostępu"
+
+#: ../inc/view.system.php:113
+msgid "The above paths should have permissions of 755 for directories and 644 for files. On some hosts the permission set requires 777.  Setting items to 777 is a security issue and should only be set temporarily.  Please avoid any hosting company that requires this kind of setup.  See the 'Duplicator Approved' link at the bottom of this dialog for a list of approved hosting providers."
+msgstr "W powyższych ścieżkach katalogi powinny mieć prawa dostępu 755, a pliki 644. W przypadku niektórych hostingów, prawa dostępu do plików i katalogów powinny być ustawione na 777. Ustawianie praw na 777 tworzy lukę bezpieczeństwa i powinno być używane wyłącznie tymczasowo. Prosimy o unikanie jakiejkolwiek firmy hostingowej, która wymaga takich ustawień. Listę zatwierdzonych dostawców hostingu znajdziesz na dole tego okna pod linkiem - \"Zatwierdzone przez Duplicator'a\"."
+
+#: ../inc/view.system.php:116
+msgid "Also be sure to check the Owner/Group settings and validate they are correct and match other successful directories/files that are accessible.  For more details contact your host or visit their help pages for more information on how they implement permissions and group settings."
+msgstr "Sprawdź, także ustawienia praw dla Właściciela/Grupy i potwierdź, czy są właściwe oraz zgodne z prawami dostępu katalogów/plików, do których możliwy jest dostęp. Skontaktuj się ze swoim dostawcą hostingu w celu uzyskania szczegółowych informacji, albo odwiedź jego stronę pomocy i sprawdź w jaki sposób stosują prawa dostępu oraz ustawienia dla grup."
+
+#: ../inc/view.system.php:123
+msgid "Reserved Files"
+msgstr "Pliki Zastrzeżone"
+
+#: ../inc/view.system.php:126
+msgid "If this check fails then a reserved file was found in the WordPress root directory. The following are reserved file names installer.php, installer-data.sql and installer-log.txt.  In order to archive your data correctly please remove any of these files from your WordPress root directory. Then try creating your package again."
+msgstr "Jeśli sprawdzanie zakończyło się niepowodzeniem oznacza to, że znaleziono plik zastrzeżony w katalogu głównym WordPress-a. Pliki zastrzeżone, to: installer.php, installer-data.sql oraz installer-log.txt. W celu poprawnego zarchiwizowania danych usuń/przenieś wszystkie z plików zastrzeżonych z katalogu głównego WordPress-a. Później spróbuj ponownie stworzyć swoją paczkę. "
+
+#: ../inc/view.system.php:131
+#, fuzzy
+msgid "Zip Archive Enabled"
+msgstr "Archiwizacja ZIP włączona"
+
+#: ../inc/view.system.php:134
+msgid "The ZipArchive extension for PHP is required for compression.  Please contact your hosting provider if you're on a hosted server.  For additional information see our online documentation."
+msgstr "Do wykonania kompresji konieczne, jest posiadanie rozszerzenia PHP ZipArchive. Jeśli korzystasz z serwera współdzielonego, prosimy kontaktować się z dostawcą hostingu. Po więcej szczegółów, zajrzyj do dokumentacji na naszej stronie internetowej."
+
+#: ../inc/view.system.php:139
+msgid "Safe Mode Off"
+msgstr "Wyłączenie Trybu Bezpiecznego"
+
+#: ../inc/view.system.php:142
+msgid "Safe Mode needs to be disabled in order for the Duplicator to operate correctly.  Please set safe_mode = Off in you php.ini file.  If you're on a hosted server and don't have access to the php.ini file then you will need to request this setting be updated. Safe Mode is no longer in future versions of PHP.  If your host will not work with you to resolve the issue then consider a higher reputable hosting provider."
+msgstr "Do poprawnego działania wtyczki Duplicator, konieczne jest wyłączenie Trybu Bezpiecznego. Prosimy ustawić safe_mode = Off w pliku php.ini. Jeśli korzystasz z serwera współdzielonego i nie masz dostępu do pliku php.ini musisz poprosić o zamianę, tego ustawienia. Tryb Bezpieczny został usunięty z wersji PHP od 5.4.0. oraz przyszłych. Jeśli, twój dostawca hostingu nie będzie z Tobą współpracować w rozwiązaniu tej kwestii, rozważ wybór dostawcy hostingu z lepszą reputacją."
+
+#: ../inc/view.system.php:147
+msgid "MySQLi Support"
+msgstr "Wsparcie MySQLi"
+
+#: ../inc/view.system.php:150
+msgid "In order to complete an install the mysqli extension for PHP is required. If you are on a hosted server please contact your host and request that mysqli extension be enabled. For more information visit: http://php.net/manual/en/mysqli.installation.php"
+msgstr "Do poprawnego zakończenia, konieczne jest zainstalowanie rozszerzenia PHP mysqli. Jeśli korzystasz z serwera współdzielonego poprosić o włączenie rozszerzenia mysqli. Więcej szczegółów uzyskasz na: http://php.net/manual/en/mysqli.installation.php"
+
+#: ../inc/view.system.php:159
+msgid "SYSTEM CHECKS"
+msgstr "SPRAWDZENIA SYSTEMU"
+
+#: ../inc/view.system.php:162
+msgid "PHP Version"
+msgstr "Wersja PHP"
+
+#: ../inc/view.system.php:164
+#: ../inc/view.system.php:176
+#: ../inc/view.system.php:200
+msgid "Good"
+msgstr "Dobre"
+
+#: ../inc/view.system.php:166
+#: ../inc/view.system.php:179
+#: ../inc/view.system.php:182
+#: ../inc/view.system.php:185
+#: ../inc/view.system.php:188
+msgid "OK"
+msgstr "OK"
+
+#: ../inc/view.system.php:167
+msgid "PHP 5.2.17+ is required"
+msgstr "Konieczne jest PHP 5.2.17 lub nowsze"
+
+#: ../inc/view.system.php:169
+#: ../inc/view.system.php:191
+#: ../inc/view.system.php:203
+msgid "Fail"
+msgstr "Niepowodzenie"
+
+#: ../inc/view.system.php:175
+#: ../inc/view.system.php:178
+#: ../inc/view.system.php:181
+#: ../inc/view.system.php:184
+#: ../inc/view.system.php:187
+#: ../inc/view.system.php:190
+msgid "Web Server"
+msgstr "Serwer Internetowy"
+
+#: ../inc/view.system.php:190
+msgid "Not detected"
+msgstr "Nie wykryto"
+
+#: ../inc/view.system.php:199
+#: ../inc/view.system.php:202
+msgid "Open Base Dir"
+msgstr "Otwarcie Katalogu Podstawowego"
+
+#: ../inc/view.system.php:199
+#, fuzzy
+msgid "Off"
+msgstr "Wyłącz"
+
+#: ../inc/view.system.php:202
+#, fuzzy
+msgid "On"
+msgstr "Włącz"
+
+#: ../inc/view.system.php:209
+msgid "PHP SAPI"
+msgstr "PHP SAPI"
+
+#: ../inc/view.system.php:214
+msgid "Scan Now"
+msgstr "Skanuj "
+
+#: ../inc/view.system.php:223
+msgid "Cache Directory Found"
+msgstr "Znaleziono Katalog Cache'u"
+
+#: ../inc/view.system.php:224
+msgid "Add to exclusion path now"
+msgstr "Dodaj teraz do ścieżki wykluczeń"
+
+#: ../inc/view.system.php:226
+msgid "Directory excluded"
+msgstr "Katalog wykluczony"
+
+#: ../inc/view.system.php:227
+msgid "Path"
+msgstr "Ścieżka plików"
+
+#: ../inc/view.system.php:229
+msgid "Cache Directory Not Found"
+msgstr "Nie Znaleziono Katalog Cache'u"
+
+#: ../inc/view.system.php:235
+msgid "ONLINE RESOURCES"
+msgstr "DOKUMENTACJA INTERNETOWA"
+
+#: ../inc/view.system.php:240
+msgid "For additional online help please visit"
+msgstr "W celu uzyskania dodatkowej pomocy przez Internet, odwiedź"
+
+#: ../inc/view.system.php:246
+msgid "Need a hosting provider that is"
+msgstr "Potrzebujesz dostawcy hostingu, który"
+
+#: ../inc/view.system.php:248
+msgid "Duplicator Approved"
+msgstr "Zatwierdzone przez Duplicator'a"
+
+#: ../inc/view.system.php:259
+msgid "Download Links"
+msgstr "Linki Pobierania"
+
+#: ../inc/view.system.php:262
+#, fuzzy
+msgid "The following links contain sensitive data.  Please share with caution!"
+msgstr "Linki, te dają dostęp do danych wrażliwych. Prosimy udostępniać je z rozwagą!"
+
+#: ../inc/view.system.php:268
+#, fuzzy
+msgid "The database SQL script is a quick link to your database backup script.  An exact copy is also stored in the package."
+msgstr "Skrypt SQL, jest szybkim sposobem na odzyskanie kopii zapasowej bazy danych. Wierna kopia bazy, znajduje się także w paczce"
+
